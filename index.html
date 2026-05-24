@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Khadija Sabir — Skills</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+    <span class="icon-sun">☀</span>
+    <span class="icon-moon">☾</span>
+  </button>
+
+  
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="hero-label">Khadija Sabir — Portfolio / Skills</p>
+      <h1 class="hero-title">
+        <span class="line">My</span>
+        <span class="line accent">Technical</span>
+        <span class="line">Arsenal.</span>
+      </h1>
+      <p class="hero-sub">CS Student · Full Stack Developer · CGPA 3.68 — Hover bars for details, scroll to animate.</p>
+    </div>
+    <div class="hero-decoration" aria-hidden="true">
+      <div class="deco-ring r1"></div>
+      <div class="deco-ring r2"></div>
+      <div class="deco-ring r3"></div>
+    </div>
+  </header>
+
+  
+  <main class="skills-page">
+
+    
+    <nav class="category-nav" role="tablist" aria-label="Skill categories">
+      <button class="tab active" data-target="all"      role="tab" aria-selected="true">All</button>
+      <button class="tab"        data-target="frontend" role="tab" aria-selected="false">Frontend</button>
+      <button class="tab"        data-target="backend"  role="tab" aria-selected="false">Backend</button>
+      <button class="tab"        data-target="database" role="tab" aria-selected="false">Database</button>
+      <button class="tab"        data-target="python"   role="tab" aria-selected="false">Python</button>
+      <button class="tab"        data-target="tools"    role="tab" aria-selected="false">Tools</button>
+    </nav>
+
+    
+    <section class="skills-section" id="progressSection">
+      <h2 class="section-heading"><span class="tag">01</span>Skill Proficiency</h2>
+
+      
+      <div class="skill-group" data-group="frontend">
+        <h3 class="group-title"><span class="group-icon">⬡</span> Frontend Development</h3>
+        <div class="skill-list">
+          <div class="skill-item" data-category="frontend" data-percent="90">
+            <div class="skill-header"><span class="skill-name">HTML5</span><span class="skill-percent">90%</span></div>
+            <div class="bar-track"><div class="bar-fill" data-width="90"><div class="bar-shine"></div></div></div>
+            <div class="tooltip">Advanced — Semantic &amp; Accessible Markup</div>
+          </div>
+          <div class="skill-item" data-category="frontend" data-percent="85">
+            <div class="skill-header"><span class="skill-name">CSS3</span><span class="skill-percent">85%</span></div>
+            <div class="bar-track"><div class="bar-fill" data-width="85"><div class="bar-shine"></div></div></div>
+            <div class="tooltip">Advanced — Layouts, Animations, Responsive</div>
+          </div>
+          <div class="skill-item" data-category="frontend" data-percent="80">
+            <div class="skill-header"><span class="skill-name">Bootstrap 5</span><span class="skill-percent">80%</span></div>
+            <div class="bar-track"><div class="bar-fill" data-width="80"><div class="bar-shine"></div></div></div>
+            <div class="tooltip">Proficient — Components, Grid, Utilities</div>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="skill-group" data-group="backend">
+        <h3 class="group-title"><span class="group-icon">⬡</span> Programming Languages</h3>
+        <div class="skill-list">
+          <div class="skill-item" data-category="backend" data-percent="78">
+            <div class="skill-header"><span class="skill-name">Python</span><span class="skill-percent">78%</span></div>
+            <div class="bar-track"><div class="bar-fill" data-width="78"><div class="bar-shine"></div></div></div>
+            <div class="tooltip">Proficient — OOP, Scripting, CLI Apps</div>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="skill-group" data-group="backend">
+        <h3 class="group-title"><span class="group-icon">⬡</span> Backend Frameworks</h3>
+        <div class="skill-list">
+          <div class="skill-item" data-category="backend" data-percent="82">
+            <div class="skill-header"><span class="skill-name">FastAPI</span><span class="skill-percent">82%</span></div>
+            <div class="bar-track"><div class="bar-fill" data-width="82"><div class="bar-shine"></div></div></div>
+            <div class="tooltip">Proficient — REST APIs, Auth, DB Integration</div>
+          </div>
+          <div class="skill-item" data-category="backend" data-percent="75">
+            <div class="skill-header"><span class="skill-name">Flask</span><span class="skill-percent">75%</span></div>
+            <div class="bar-track"><div class="bar-fill" data-width="75"><div class="bar-shine"></div></div></div>
+            <div class="tooltip">Intermediate — Routing, Sessions, CRUD</div>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="skill-group" data-group="database">
+        <h3 class="group-title"><span class="group-icon">⬡</span> Database</h3>
+        <div class="skill-list">
+          <div class="skill-item" data-category="database" data-percent="76">
+            <div class="skill-header"><span class="skill-name">SQL</span><span class="skill-percent">76%</span></div>
+            <div class="bar-track"><div class="bar-fill" data-width="76"><div class="bar-shine"></div></div></div>
+            <div class="tooltip">Intermediate — Queries, Joins, Schema Design</div>
+          </div>
+          <div class="skill-item" data-category="database" data-percent="72">
+            <div class="skill-header"><span class="skill-name">PostgreSQL</span><span class="skill-percent">72%</span></div>
+            <div class="bar-track"><div class="bar-fill" data-width="72"><div class="bar-shine"></div></div></div>
+            <div class="tooltip">Intermediate — Relations, Indexing, CRUD</div>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="skill-group" data-group="python">
+        <h3 class="group-title"><span class="group-icon">⬡</span> Python Libraries</h3>
+        <div class="skill-list">
+          <div class="skill-item" data-category="python" data-percent="78">
+            <div class="skill-header"><span class="skill-name">Pandas</span><span class="skill-percent">78%</span></div>
+            <div class="bar-track"><div class="bar-fill" data-width="78"><div class="bar-shine"></div></div></div>
+            <div class="tooltip">Proficient — DataFrames, Data Wrangling</div>
+          </div>
+          <div class="skill-item" data-category="python" data-percent="74">
+            <div class="skill-header"><span class="skill-name">NumPy</span><span class="skill-percent">74%</span></div>
+            <div class="bar-track"><div class="bar-fill" data-width="74"><div class="bar-shine"></div></div></div>
+            <div class="tooltip">Intermediate — Arrays, Numerical Computing</div>
+          </div>
+          <div class="skill-item" data-category="python" data-percent="70">
+            <div class="skill-header"><span class="skill-name">Matplotlib</span><span class="skill-percent">70%</span></div>
+            <div class="bar-track"><div class="bar-fill" data-width="70"><div class="bar-shine"></div></div></div>
+            <div class="tooltip">Intermediate — Charts, Data Visualization</div>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="skill-group" data-group="tools">
+        <h3 class="group-title"><span class="group-icon">⬡</span> Tools</h3>
+        <div class="skill-list">
+          <div class="skill-item" data-category="tools" data-percent="88">
+            <div class="skill-header"><span class="skill-name">Visual Studio Code</span><span class="skill-percent">88%</span></div>
+            <div class="bar-track"><div class="bar-fill" data-width="88"><div class="bar-shine"></div></div></div>
+            <div class="tooltip">Advanced — Extensions, Debugging, Git Integration</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="skills-section" id="circleSection">
+      <h2 class="section-heading"><span class="tag">02</span>Radial Overview</h2>
+      <div class="circles-grid">
+        
+        <div class="circle-card" data-percent="90" data-label="HTML5" data-category="frontend">
+          <div class="circle-wrap">
+            <svg viewBox="0 0 120 120" class="circle-svg">
+              <circle class="track" cx="60" cy="60" r="50"/>
+              <circle class="fill"  cx="60" cy="60" r="50" data-percent="90"/>
+            </svg>
+            <div class="circle-inner"><span class="circle-num">90</span><span class="circle-unit">%</span></div>
+          </div>
+          <p class="circle-label">HTML5</p>
+        </div>
+        <div class="circle-card" data-percent="85" data-label="CSS3" data-category="frontend">
+          <div class="circle-wrap">
+            <svg viewBox="0 0 120 120" class="circle-svg">
+              <circle class="track" cx="60" cy="60" r="50"/>
+              <circle class="fill"  cx="60" cy="60" r="50" data-percent="85"/>
+            </svg>
+            <div class="circle-inner"><span class="circle-num">85</span><span class="circle-unit">%</span></div>
+          </div>
+          <p class="circle-label">CSS3</p>
+        </div>
+        <div class="circle-card" data-percent="80" data-label="Bootstrap" data-category="frontend">
+          <div class="circle-wrap">
+            <svg viewBox="0 0 120 120" class="circle-svg">
+              <circle class="track" cx="60" cy="60" r="50"/>
+              <circle class="fill"  cx="60" cy="60" r="50" data-percent="80"/>
+            </svg>
+            <div class="circle-inner"><span class="circle-num">80</span><span class="circle-unit">%</span></div>
+          </div>
+          <p class="circle-label">Bootstrap 5</p>
+        </div>
+        
+        <div class="circle-card" data-percent="78" data-label="Python" data-category="backend">
+          <div class="circle-wrap">
+            <svg viewBox="0 0 120 120" class="circle-svg">
+              <circle class="track" cx="60" cy="60" r="50"/>
+              <circle class="fill"  cx="60" cy="60" r="50" data-percent="78"/>
+            </svg>
+            <div class="circle-inner"><span class="circle-num">78</span><span class="circle-unit">%</span></div>
+          </div>
+          <p class="circle-label">Python</p>
+        </div>
+        <div class="circle-card" data-percent="82" data-label="FastAPI" data-category="backend">
+          <div class="circle-wrap">
+            <svg viewBox="0 0 120 120" class="circle-svg">
+              <circle class="track" cx="60" cy="60" r="50"/>
+              <circle class="fill"  cx="60" cy="60" r="50" data-percent="82"/>
+            </svg>
+            <div class="circle-inner"><span class="circle-num">82</span><span class="circle-unit">%</span></div>
+          </div>
+          <p class="circle-label">FastAPI</p>
+        </div>
+        <div class="circle-card" data-percent="75" data-label="Flask" data-category="backend">
+          <div class="circle-wrap">
+            <svg viewBox="0 0 120 120" class="circle-svg">
+              <circle class="track" cx="60" cy="60" r="50"/>
+              <circle class="fill"  cx="60" cy="60" r="50" data-percent="75"/>
+            </svg>
+            <div class="circle-inner"><span class="circle-num">75</span><span class="circle-unit">%</span></div>
+          </div>
+          <p class="circle-label">Flask</p>
+        </div>
+        
+        <div class="circle-card" data-percent="76" data-label="SQL" data-category="database">
+          <div class="circle-wrap">
+            <svg viewBox="0 0 120 120" class="circle-svg">
+              <circle class="track" cx="60" cy="60" r="50"/>
+              <circle class="fill"  cx="60" cy="60" r="50" data-percent="76"/>
+            </svg>
+            <div class="circle-inner"><span class="circle-num">76</span><span class="circle-unit">%</span></div>
+          </div>
+          <p class="circle-label">SQL</p>
+        </div>
+        <div class="circle-card" data-percent="72" data-label="PostgreSQL" data-category="database">
+          <div class="circle-wrap">
+            <svg viewBox="0 0 120 120" class="circle-svg">
+              <circle class="track" cx="60" cy="60" r="50"/>
+              <circle class="fill"  cx="60" cy="60" r="50" data-percent="72"/>
+            </svg>
+            <div class="circle-inner"><span class="circle-num">72</span><span class="circle-unit">%</span></div>
+          </div>
+          <p class="circle-label">PostgreSQL</p>
+        </div>
+        
+        <div class="circle-card" data-percent="78" data-label="Pandas" data-category="python">
+          <div class="circle-wrap">
+            <svg viewBox="0 0 120 120" class="circle-svg">
+              <circle class="track" cx="60" cy="60" r="50"/>
+              <circle class="fill"  cx="60" cy="60" r="50" data-percent="78"/>
+            </svg>
+            <div class="circle-inner"><span class="circle-num">78</span><span class="circle-unit">%</span></div>
+          </div>
+          <p class="circle-label">Pandas</p>
+        </div>
+        <div class="circle-card" data-percent="74" data-label="NumPy" data-category="python">
+          <div class="circle-wrap">
+            <svg viewBox="0 0 120 120" class="circle-svg">
+              <circle class="track" cx="60" cy="60" r="50"/>
+              <circle class="fill"  cx="60" cy="60" r="50" data-percent="74"/>
+            </svg>
+            <div class="circle-inner"><span class="circle-num">74</span><span class="circle-unit">%</span></div>
+          </div>
+          <p class="circle-label">NumPy</p>
+        </div>
+        <div class="circle-card" data-percent="70" data-label="Matplotlib" data-category="python">
+          <div class="circle-wrap">
+            <svg viewBox="0 0 120 120" class="circle-svg">
+              <circle class="track" cx="60" cy="60" r="50"/>
+              <circle class="fill"  cx="60" cy="60" r="50" data-percent="70"/>
+            </svg>
+            <div class="circle-inner"><span class="circle-num">70</span><span class="circle-unit">%</span></div>
+          </div>
+          <p class="circle-label">Matplotlib</p>
+        </div>
+        
+        <div class="circle-card" data-percent="88" data-label="VS Code" data-category="tools">
+          <div class="circle-wrap">
+            <svg viewBox="0 0 120 120" class="circle-svg">
+              <circle class="track" cx="60" cy="60" r="50"/>
+              <circle class="fill"  cx="60" cy="60" r="50" data-percent="88"/>
+            </svg>
+            <div class="circle-inner"><span class="circle-num">88</span><span class="circle-unit">%</span></div>
+          </div>
+          <p class="circle-label">VS Code</p>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="skills-section" id="radarSection">
+      <h2 class="section-heading"><span class="tag">03</span>Radar Analysis</h2>
+      <div class="radar-container">
+        <canvas id="radarChart" width="500" height="500"></canvas>
+        <div class="radar-legend">
+          <div class="legend-item"><span class="dot frontend"></span>Frontend</div>
+          <div class="legend-item"><span class="dot backend"></span>Backend / Python</div>
+          <div class="legend-item"><span class="dot database-dot"></span>Database</div>
+          <div class="legend-item"><span class="dot python-dot"></span>Python Libs</div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="skills-section" id="projectsSection">
+      <h2 class="section-heading"><span class="tag">04</span>Projects Built</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-tag">FastAPI · PostgreSQL</div>
+          <h3 class="project-title">Social Media API</h3>
+          <p class="project-desc">Backend with user authentication, posts, likes &amp; comments via RESTful APIs. Clean architecture with database integration.</p>
+          <div class="project-skills"><span>FastAPI</span><span>Python</span><span>SQL</span></div>
+        </div>
+        <div class="project-card">
+          <div class="project-tag">Full Stack</div>
+          <h3 class="project-title">Ecommerce Web App</h3>
+          <p class="project-desc">Product listing, cart, user auth, CRUD ops on products. Responsive across desktop &amp; mobile.</p>
+          <div class="project-skills"><span>HTML5</span><span>CSS3</span><span>Bootstrap 5</span><span>Python</span></div>
+        </div>
+        <div class="project-card">
+          <div class="project-tag">CLI App</div>
+          <h3 class="project-title">Task Manager CLI</h3>
+          <p class="project-desc">Python-based CLI task manager — add, update, delete &amp; view tasks directly from the command line.</p>
+          <div class="project-skills"><span>Python</span></div>
+        </div>
+        <div class="project-card">
+          <div class="project-tag">Flask · Auth</div>
+          <h3 class="project-title">Flask Blog</h3>
+          <p class="project-desc">Register, login, create &amp; manage blog posts. Authentication, session handling, and basic CRUD in a clean web UI.</p>
+          <div class="project-skills"><span>Flask</span><span>Python</span><span>SQL</span></div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="stats-strip">
+      <div class="stat"><span class="stat-num" data-count="12">0</span><span class="stat-label">Skills Tracked</span></div>
+      <div class="stat"><span class="stat-num" data-count="4">0</span><span class="stat-label">Years CS Study</span></div>
+      <div class="stat"><span class="stat-num" data-count="4">0</span><span class="stat-label">Projects Built</span></div>
+      <div class="stat"><span class="stat-num" data-count="368">0</span><span class="stat-label">CGPA × 100</span></div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>Khadija Sabir — <span class="accent-text">CS Student · University of Agriculture Faisalabad, Pakistan</span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
